@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](https://github.com/near/near-ai-cookbook)
 [![Twitter Follow](https://img.shields.io/twitter/follow/nearprotocol?style=social)](https://twitter.com/nearprotocol)
 
-Welcome to the NEAR AI Cookbook! This repository contains examples and best practices for integrating AI capabilities with the NEAR blockchain ecosystem. Whether you're a seasoned blockchain developer or just getting started with AI, this cookbook will help you leverage the power of decentralized AI on NEAR.
+Welcome to the NEAR AI Cookbook! This repository contains examples and best practices for integrating AI capabilities on NEAR, using a suite of tools and resources across our ecosystem. Whether you're a seasoned developer or just getting started with AI, this cookbook will help you leverage the power of decentralized AI on NEAR.
 
 ## Table of Contents
 
