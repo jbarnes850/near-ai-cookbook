@@ -1,0 +1,26 @@
+# Core dependencies
+requests
+datasets
+
+# NEAR AI SDK to be released!
+
+# Jupyter for notebook examples
+jupyter
+notebook
+
+# OpenAI library for Hyperbolic AI compatibility
+openai
+
+# Additional utilities
+python-dotenv
+
+# Data processing and analysis
+pandas
+numpy
+
+# Visualization (if needed for future examples)
+matplotlib
+seaborn
+
+# Testing
+pytest
