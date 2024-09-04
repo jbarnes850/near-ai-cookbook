@@ -71,7 +71,7 @@ Each example in this cookbook is designed to be self-contained and easy to run. 
 
 ## Examples
 
-1. **Hyperbolic AI Integration**: Demonstrates how to use Hyperbolic AI for text and image generation, showcasing integration with NEAR AI Registry and Agents.
+1. **Hyperbolic Integration**: Demonstrates how to use Hyperbolic AI for text and image generation, showcasing integration with NEAR AI Registry and Agents.
 
 2. (More examples to be added as the cookbook expands)
 
