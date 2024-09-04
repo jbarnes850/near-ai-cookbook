@@ -12,7 +12,6 @@ Welcome to the NEAR AI Cookbook! This repository is your comprehensive guide to 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Examples](#examples)
 - [Contributing](#contributing)
 - [Resources](#resources)
 
@@ -41,8 +40,8 @@ Before you begin, ensure you have the following installed:
 
 You'll also need:
 
-- A NEAR account. If you don't have one, you can create it using [NEAR Wallet](https://app.mynearwallet.com/).
-- API keys for services used in the examples (e.g., OpenAI, Pinecone). Refer to the `.env.example` file for the required keys.
+- A NEAR account. If you don't have one, you can create it using [NEAR Wallet](https://app.mynearwallet.com/). or [Testnet Wallet](https://testnet.mynearwallet.com)
+- API keys for services used in the examples (e.g., [OpenAI](https://platform.openai.com/docs/quickstart), Pinecone). Refer to the `.env.example` file for the required keys.
 
 ## Installation
 
