@@ -1,3 +1,0 @@
-# NEAR AI Cookbook Examples
-
-To be completed...

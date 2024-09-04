@@ -1,0 +1,32 @@
+{
+  "name": "ai-crypto-prediction-market",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hyperbolic/sdk": "^1.0.0",
+    "@mintbase-js/sdk": "^0.4.1",
+    "@mintbase-js/react": "^0.4.1",
+    "@mintbase-js/wallet": "^0.4.1",
+    "@pinecone-database/pinecone": "^0.1.6",
+    "exa-js": "^1.0.0",
+    "tavily-js": "^1.0.0",
+    "langchain": "^0.0.96",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.14",
+    "@types/react": "18.0.18",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "typescript": "4.8.2"
+  }
+}

@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](https://github.com/near/near-ai-cookbook)
 [![Twitter Follow](https://img.shields.io/twitter/follow/nearprotocol?style=social)](https://twitter.com/nearprotocol)
 
-Welcome to the NEAR AI Cookbook! This repository contains examples and best practices for integrating AI capabilities on NEAR, using a suite of tools and resources across our ecosystem. Whether you're a seasoned developer or just getting started with AI, this cookbook will help you leverage the power of decentralized AI on NEAR.
+Welcome to the NEAR AI Cookbook! This repository is your comprehensive guide to integrating AI capabilities with NEAR Protocol. Whether you're building decentralized AI applications, implementing onchain machine learning models, or exploring the intersection of AI and Web3, this cookbook will help you get started with AI on NEAR.
 
 ## Table of Contents
 
@@ -22,21 +22,31 @@ The NEAR AI Cookbook demonstrates various use cases and integrations with the NE
 
 ## Features
 
-- Interact with the NEAR AI Registry for decentralized data storage and retrieval
-- Integrate external AI services (e.g., Hyperbolic AI) with NEAR smart contracts
-- Utilize NEAR AI Agents for automated decision-making and task execution
-- Showcase real-world applications in areas such as crypto market analysis and creative content generation
+- Starter kits and templates for building AI-powered applications on NEAR
+- Integration guides for key NEAR AI ecosystem projects (e.g., Hyperbolic, Mintbase)
+- Reusable components for common AI functionalities (e.g., prediction markets, NFT creation)
+- Best practices for implementing AI models and algorithms on NEAR
+- Tools for enhancing AI accuracy and performance (e.g., RAG implementations)
+- User authentication and wallet integration examples
+- Scalable and modular architecture designs for AI dApps
+
 
 ## Prerequisites
 
-- Python 3.8+
-- NEAR account
-- NEAR AI CLI (coming soon)
-- API keys for integrated services (e.g., Hyperbolic AI)
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or later)
+- [npm](https://www.npmjs.com/) (usually comes with Node.js)
+- [NEAR CLI](https://docs.near.org/tools/near-cli#setup)
+
+You'll also need:
+
+- A NEAR account. If you don't have one, you can create it using [NEAR Wallet](https://wallet.near.org/).
+- API keys for services used in the examples (e.g., OpenAI, Pinecone). Refer to the `.env.example` file for the required keys.
 
 ## Installation
 
-1. Clone this repository:
+1. Clone the repository:
    ```
    git clone https://github.com/near/near-ai-cookbook.git
    cd near-ai-cookbook
@@ -44,45 +54,33 @@ The NEAR AI Cookbook demonstrates various use cases and integrations with the NE
 
 2. Install dependencies:
    ```
-   pip install -r requirements.txt
+   npm install
    ```
 
-3. Set up your API keys:
-   ```
-   cp .env.example .env
-   ```
-   Edit the `.env` file to include your API keys.
+3. Set up environment variables:
+   - Copy `.env.example` to `.env.local`
+   - Fill in the required API keys and configuration values
 
 ## Usage
 
-Each example in this cookbook is designed to be self-contained and easy to run. To explore a specific example:
-
-1. Navigate to the example directory:
+1. Run the development server:
    ```
-   cd examples/hyperbolic_example
+   npm run dev
    ```
 
-2. Run the Python script:
-   ```
-   python hyperbolic_example.py
-   ```
-
-3. Follow the output and interact with the NEAR AI ecosystem.
-
-## Examples
-
-1. **Hyperbolic Integration**: Demonstrates how to use Hyperbolic AI for text and image generation, showcasing integration with NEAR AI Registry and Agents.
-
-2. (More examples to be added as the cookbook expands)
-
-Each example includes detailed documentation and explanations to help you understand the integration process and best practices.
+2. Open [http://localhost:3000](http://localhost:3000) in your browser to explore the examples.
 
 ## Contributing
 
-We welcome contributions from the community! Whether it's adding new examples, improving documentation, or fixing bugs, your input is valuable. Please read our [Contributing Guide](CONTRIBUTING.md) for more information on how to get started.
+We welcome contributions from the community! Whether it's adding new examples, improving documentation, or fixing bugs, your input is valuable. Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
 
 ## Resources
 
-- [NEAR Protocol Documentation](https://docs.near.org)
-- [NEAR AI Documentation](https://docs.near.ai)
-- [Hyperbolic AI Documentation](https://docs.hyperbolic.xyz)
+- [NEAR Documentation](https://docs.near.org/)
+- More resources to be added soon! 
+
+## License
+
+This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+Join us in shaping the future of decentralized AI on NEAR!
